@@ -49,3 +49,12 @@ Q. <img>의 속성 중 이미지의 대체 텍스트를 입력 하는 속성을 
 2. height
 3. width
 4. **alt**
+
+---
+
+Q. 셀을 가로 방향으로 병합 할 때 사용하는 속성을 고르시오.
+
+1. **colspan**
+2. verticalspan
+3. rowspan
+4. sidespan
