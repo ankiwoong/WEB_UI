@@ -58,3 +58,12 @@ Q. 셀을 가로 방향으로 병합 할 때 사용하는 속성을 고르시오
 2. verticalspan
 3. rowspan
 4. sidespan
+
+---
+
+Q. <input>의 type 중 중복 선택이 가능한 폼 요소를 만들 때 사용하는 type을 고르시오.
+
+1. type="radio"
+2. type="text"
+3. **type="checkbox"**
+4. type="password"
