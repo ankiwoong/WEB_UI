@@ -85,3 +85,12 @@ Q.  button 태그에 사용 가능한 타입이 아닌 것을 고르시오.
 2. reset
 3. **image**
 4. button
+
+---
+
+Q. 다음 중 ```<label>```과 ```<input>```의 연결이 올바른 것을 고르시오.
+
+1. ```<label id="age">나이</label>: <input type="number" for="age">```
+2. **```<label for="age">나이</label>: <input type="number" id="age">```**
+3. ```<label placeholder="age">나이</label>: <input type="number">```
+4. ```<label>나이</label>: <input type="number">```
