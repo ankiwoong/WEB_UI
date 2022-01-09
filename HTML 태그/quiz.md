@@ -76,3 +76,12 @@ Q.  ```<input>```의 type 중 form의 값을 전송하는 역할을 하는 type�
 2. type="reset"
 3. type="file"
 4. type="button"
+
+---
+
+Q.  button 태그에 사용 가능한 타입이 아닌 것을 고르시오.
+
+1. submit
+2. reset
+3. **image**
+4. button
