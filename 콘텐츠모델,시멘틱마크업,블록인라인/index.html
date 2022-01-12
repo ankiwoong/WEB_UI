@@ -1,4 +1,55 @@
-<b>굵은</b> vs <strong>중요한</strong>
-<i>기울어진</i> vs <em>강조하는</em>
-<u>밑줄친</u> vs <ins>새롭게 추가된</ins>
-<s>중간선이 있는</s> vs <del>삭제된</del>
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .forecast {
+            margin: 0;
+            padding: .3rem;
+            background-color: #eee;
+            font: 1rem 'Fira Sans', sans-serif;
+        }
+
+        .forecast>h1,
+        .day-forecast {
+            margin: .5rem;
+            padding: .3rem;
+            font-size: 1.2rem;
+        }
+
+        .day-forecast {
+            background: right/contain content-box border-box no-repeat url('/media/examples/rain.svg') white;
+        }
+
+        .day-forecast>h2,
+        .day-forecast>p {
+            margin: .2rem;
+            font-size: 1rem;
+        }
+    </style>
+    <title>Article Example</title>
+</head>
+
+<body>
+    <article class="forecast">
+        <h1>Weather forecast for Seattle</h1>
+        <article class="day-forecast">
+            <h2>03 March 2018</h2>
+            <p>Rain.</p>
+        </article>
+        <article class="day-forecast">
+            <h2>04 March 2018</h2>
+            <p>Periods of rain.</p>
+        </article>
+        <article class="day-forecast">
+            <h2>05 March 2018</h2>
+            <p>Heavy rain.</p>
+        </article>
+    </article>
+
+</body>
+
+</html>
