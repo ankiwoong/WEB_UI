@@ -6,36 +6,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        figure {
-            border: thin #c0c0c0 solid;
+        article {
+            min-height: 100%;
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+        }
+
+        footer {
             display: flex;
-            flex-flow: column;
+            justify-content: center;
             padding: 5px;
-            max-width: 220px;
-            margin: auto;
-        }
-
-        img {
-            max-width: 220px;
-            max-height: 150px;
-        }
-
-        figcaption {
-            background-color: #222;
+            background-color: #45a1ff;
             color: #fff;
-            font: italic smaller sans-serif;
-            padding: 3px;
-            text-align: center;
         }
     </style>
     <title>Article Example</title>
 </head>
 
 <body>
-    <figure>
-        <img src="images/elephant-660-480.jpg" alt="Elephant at sunset">
-        <figcaption>An elephant at sunset</figcaption>
-    </figure>
+    <article>
+        <h1>How to be a wizard</h1>
+        <ol>
+            <li>Grow a long, majestic beard.</li>
+            <li>Wear a tall, pointed hat.</li>
+            <li>Have I mentioned the beard?</li>
+        </ol>
+        <footer>
+            <p>© 2018 Gandalf</p>
+        </footer>
+    </article>
+
 </body>
 
 </html>
