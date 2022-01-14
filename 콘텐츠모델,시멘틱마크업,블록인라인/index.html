@@ -6,36 +6,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        article {
-            min-height: 100%;
-            display: grid;
-            grid-template-rows: auto 1fr auto;
+        header.page-header {
+            background: no-repeat left/cover url(images/grapefruit-slice-332-332.jpg);
+            display: flex;
+            height: 120px;
+            min-width: 120px;
+            align-items: center;
+            color: #fff;
+            text-shadow: #000 0 0 .2em;
         }
 
-        footer {
-            display: flex;
-            justify-content: center;
-            padding: 5px;
-            background-color: #45a1ff;
-            color: #fff;
+        header.page-header>h1 {
+            font: bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script', cursive,
+                fantasy;
+            margin: 2%;
+        }
+
+        main {
+            font: 1rem 'Fira Sans', sans-serif;
         }
     </style>
-    <title>Article Example</title>
+    <title>header Example</title>
 </head>
 
 <body>
-    <article>
-        <h1>How to be a wizard</h1>
-        <ol>
-            <li>Grow a long, majestic beard.</li>
-            <li>Wear a tall, pointed hat.</li>
-            <li>Have I mentioned the beard?</li>
-        </ol>
-        <footer>
-            <p>© 2018 Gandalf</p>
-        </footer>
-    </article>
+    <header class="page-header">
+        <h1>Cute Puppies Express!</h1>
+    </header>
 
+    <main>
+        <p>I love beagles <em>so</em> much! Like, really, a lot. They’re adorable and their ears are so, so snuggly
+            soft!
+        </p>
+    </main>
 </body>
 
 </html>
