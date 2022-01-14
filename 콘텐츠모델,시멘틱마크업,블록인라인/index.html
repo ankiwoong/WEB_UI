@@ -6,19 +6,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        mark {}
+        nav {
+            border-bottom: 1px solid black;
+        }
+
+        .crumbs ol {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .crumb {
+            display: inline-block;
+        }
+
+        .crumb a::after {
+            display: inline-block;
+            color: #000;
+            content: '>';
+            font-size: 80%;
+            font-weight: bold;
+            padding: 0 3px;
+        }
     </style>
-    <title>mark Example</title>
+    <title>nav Example</title>
 </head>
 
 <body>
-    <p>Search results for "salamander":</p>
+    <nav class="crumbs">
+        <ol>
+            <li class="crumb"><a href="#">Bikes</a></li>
+            <li class="crumb"><a href="#">BMX</a></li>
+            <li class="crumb">Jump Bike 3000</li>
+        </ol>
+    </nav>
 
-    <hr>
+    <h1>Jump Bike 3000</h1>
+    <p>This BMX bike is a solid step into the pro world. It looks as legit as it rides and is built to polish your
+        skills.
+    </p>
 
-    <p>Several species of <mark>salamander</mark> inhabit the temperate rainforest of the Pacific Northwest.</p>
-
-    <p>Most <mark>salamander</mark>s are nocturnal, and hunt for insects, worms, and other small creatures.</p>
 </body>
 
 </html>
