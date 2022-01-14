@@ -6,45 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        nav {
-            border-bottom: 1px solid black;
-        }
-
-        .crumbs ol {
-            list-style-type: none;
-            padding-left: 0;
-        }
-
-        .crumb {
-            display: inline-block;
-        }
-
-        .crumb a::after {
-            display: inline-block;
-            color: #000;
-            content: '>';
-            font-size: 80%;
-            font-weight: bold;
-            padding: 0 3px;
+        hgroup>h1,
+        h2 {
+            margin: 0;
         }
     </style>
-    <title>nav Example</title>
+    <title>section Example</title>
 </head>
 
 <body>
-    <nav class="crumbs">
-        <ol>
-            <li class="crumb"><a href="#">Bikes</a></li>
-            <li class="crumb"><a href="#">BMX</a></li>
-            <li class="crumb">Jump Bike 3000</li>
-        </ol>
-    </nav>
+    <h1>Choosing an Apple</h1>
+    <section>
+        <h2>Introduction</h2>
+        <p>This document provides a guide to help with the important task of choosing the correct Apple.</p>
+    </section>
 
-    <h1>Jump Bike 3000</h1>
-    <p>This BMX bike is a solid step into the pro world. It looks as legit as it rides and is built to polish your
-        skills.
-    </p>
-
+    <section>
+        <h2>Criteria</h2>
+        <p>There are many different criteria to be considered when choosing an Apple — size, color, firmness, sweetness,
+            tartness...</p>
+    </section>
 </body>
 
 </html>
