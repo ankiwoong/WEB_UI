@@ -5,23 +5,30 @@
     <meta charset="UTF-8">
     <title>css</title>
     <style>
-        #dt1 {
-            color: violet;
+        .item {
+            background: gray;
         }
 
-        #dt2 {
-            text-decoration: underline;
+        .a {
+            color: yellow;
+        }
+
+        .b {
+            color: blue;
+        }
+
+        #special {
+            color: red;
         }
     </style>
 </head>
 
 <body>
-    <dl>
-        <dt id="dt1">HTML</dt>
-        <dd><span>HTML</span>은 문서의 구조를 나타냅니다.</dd>
-        <dt id="dt2">CSS</dt>
-        <dd><span>CSS</span>는 문서의 표현을 나타냅니다.</dd>
-    </dl>
+    <ul>
+        <li class="item a">first</a>
+        <li class="item b">second</a>
+        <li class="item" id="special">third</a>
+    </ul>
 </body>
 
 </html>
