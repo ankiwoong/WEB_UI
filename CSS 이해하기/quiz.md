@@ -31,3 +31,29 @@ Q. class명에 "button"으로 끝나는 요소가 선택되도록 알맞게 조�
 2. ```[class~="button"]```
 3. ```[class^="button"]```
 4. **```[class$="button"]```**
+
+---
+
+Q. 아래 선택자 조합에서 item2가 선택되지 않는 것을 고르시오.
+
+```html
+<div class="wrap">
+
+<strong> title </strong>
+<p> description </p>
+
+<ul class="list">
+
+<li class="item i1"> item 1 </li>  
+<li class="item i2"> item 2 </li>  
+<li class="item i3"> item 3 </li>
+
+</ul>
+
+</div>
+```
+
+1. ```.wrap .item.i2```
+2. **```strong + .list .i2```**
+3. ```div > .list .i2```
+4. ```.wrap .list .i2```
