@@ -1,2 +1,3 @@
-a:link { color: blue; }
-a:visited { color: gray; }
+a:focus { background-color: yellow; }
+a:hover { font-weight: bold; }
+a:active { color: red; }
