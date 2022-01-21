@@ -5,24 +5,32 @@
     <meta charset="UTF-8">
     <title>css</title>
     <style>
-        a:focus {
-            background-color: yellow
+        p::before {
+            content: "###"
         }
 
-        a:hover {
-            font-weight: bold
+        p::after {
+            content: "!!!"
         }
 
-        a:active {
-            color: red
+        /* p::first-line {
+            ...
         }
+
+        p::first-letter {
+            ...
+        } */
     </style>
 </head>
 
 <body>
-    <a href="http://www.naver.com">네이버</a>
-    <a href="http://www.google.com">구글</a>
-    <a href="http://www.daum.net">다음</a>
+    <p>
+        <before>###</before>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna
+        aliqua.
+        <after>!!!</after>
+    </p>
 </body>
 
 </html>
