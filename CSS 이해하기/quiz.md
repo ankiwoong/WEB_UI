@@ -84,3 +84,26 @@ Q. 구체성이 가장 높은 셀렉터를 고르시오.
 2. ```.name > .first:hover```
 3. **```#name```**
 4. ```*```
+
+---
+
+Q. "box"의 폰트 색상으로 알맞은 것을 고르시오.
+
+```html
+<div class="wrap">
+
+<div class="box">box</div>
+
+</div>
+<style>
+.wrap { color: orange !important; }
+.wrap div { color: red; }
+.box { color: green !important; }
+.wrap .box { color: blue; }
+</style>
+```
+
+1. orange
+2. red
+3. **green**
+4. blue
