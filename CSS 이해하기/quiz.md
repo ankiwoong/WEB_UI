@@ -107,3 +107,39 @@ Q. "box"의 폰트 색상으로 알맞은 것을 고르시오.
 2. red
 3. **green**
 4. blue
+
+---
+
+Q. "index 1"의 폰트 색상으로 알맞은 것을 고르시오.
+
+```html
+<div class="box" style="color: yellow">
+
+<h1 class="title">title</h1>
+<p class="desc">description</p>
+
+<ul class="index" style="color: blue;">  
+
+<li class="in_item in1">index 1</li>
+<li class="in_item ">index 2</li>
+
+</ul>
+
+</div>
+
+<style>
+
+.box { color: red !important; }
+.index > .in_item { color: pink; }
+div ul .in_item { color: orange; }
+.in_item.in1 { color: black; }
+p + ul.index { color: yellow; }
+
+</style>
+```
+
+1. **black**
+2. yellow
+3. orange
+4. pink
+5. blue
